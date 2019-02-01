@@ -1,9 +1,40 @@
-cp .env.example .env
-php artisan key:generate
+# Small personal project
 
-composer install
-npm install
+http://gazdinstvolazarevic.in.rs
 
-npm run prod
+## Built With
 
+    *   Bootstrap / JQuery
+    *   Laravel
 
+## Location
+
+[Link](http://gazdinstvolazarevic.in.rs) - Live site
+
+## Getting started
+
+### Production
+
+    *   cp .env.example .env
+    *   php artisan key:generate
+    *   Check default .env
+    *   Check ../storage
+    *   Check server config
+    *   composer install
+    *   npm install
+    *   npm run prod
+
+### Develop
+
+    *   cp .env.example .env
+    *   php artisan key:generate
+    *   Check default .env
+    *   Check ../storage permissions
+    *   Check server config
+    *   composer install
+    *   npm install
+    *   npm run watch-poll
+
+## Console commands
+
+    *   php artisan make:sitemap - sitemap generator
