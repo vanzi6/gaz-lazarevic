@@ -1,0 +1,64 @@
+
+// Fonts
+@import url('https://fonts.googleapis.com/css?family=Work+Sans');
+
+// Variables
+@import 'variables';
+
+// Bootstrap
+@import '~bootstrap/scss/bootstrap';
+
+.bg-sidebar, .navbar {
+    background-color: $customMainColor;
+}
+
+.logo {
+    width: 8rem;
+    margin-left: -25px;
+}
+
+.logo-mobile {
+    width: 2rem;
+}
+
+.nav-link {
+    color: $white;
+    margin-bottom: $spacer;
+}
+
+.nav-pills .nav-link.active, .nav-pills .show > .nav-link {
+    background-color: $navBackColor;
+}
+
+.nav-link:hover {
+    color: $white;
+    background-color: $navBackColorDarken;
+    cursor: pointer;
+}
+
+.minh-100 {
+    min-height: 100%;
+}
+
+.share-btn img {
+    width: 3.5em;
+    height: 2.5em;
+}
+
+@media (min-width: 768px) {
+    h1 {
+        font-size: 2rem;
+    }
+    p, a {
+        font-size: 1.2rem;
+    }
+    .jumbotron {
+        padding: 3rem;
+    }
+}
+
+@media (max-width: 328px) {
+    .logo-mobile {
+        display: none;
+    }
+}
