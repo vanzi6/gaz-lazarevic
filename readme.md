@@ -2,10 +2,12 @@
 
 http://gazdinstvolazarevic.in.rs
 
-## Built With
+## Built with
 
 *   Bootstrap / JQuery
 *   Laravel
+
+### Compiled with
 
 ## Getting started
 
