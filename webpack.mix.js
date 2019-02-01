@@ -11,12 +11,6 @@ const mix = require('laravel-mix');
  |
  */
 
-mix.options({
-      purifyCss: true,
-      uglify: {
-         compress: true,
-      }
-   })
-   .js('resources/js/app.js', 'public/js')
+mix.js('resources/js/app.js', 'public/js')
    .sass('resources/sass/app.scss', 'public/css')
    .version();
