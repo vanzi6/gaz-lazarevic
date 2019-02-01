@@ -9,6 +9,8 @@ http://gazdinstvolazarevic.in.rs
 
 ### Compiled with
 
+*   Webpack / Laravel Mix
+
 ## Getting started
 
 ### Production
