@@ -11,7 +11,7 @@
         <title>@yield('title', env('APP_NAME'))</title>
         <!-- END Meta -->
         <!-- START Links -->
-        <link rel="stylesheet" type="text/css" href="css/app.css">
+        <link rel="stylesheet" type="text/css" href="{{ mix('/css/app.css') }}">
         <link rel="icon" href="images/logo-2.png">
         <!-- END Links -->
         <!-- START Global site tag (gtag.js) - Google Analytics -->
@@ -56,7 +56,7 @@
             </div>
         </div>
         <!-- START Body scripts -->
-        <script src="js/app.js"></script>
+        <script src="{{ mix('/js/app.js') }}"></script>
         <!-- END Body scripts -->
     </body>
 </html>
